@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, HistoryActivity::class.java))
         }
     }
-    
+
     override fun onCreateOptionsMenu(menu: android.view.Menu): Boolean {
         menu.add(0, 1, 0, "History")
         return true
